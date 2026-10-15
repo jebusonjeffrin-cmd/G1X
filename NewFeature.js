@@ -1,3 +1,8 @@
 function add(a,b){
-  return a+b;
+  c = ()=>{
+    return a+b;
+  }
+  return c(a,b);
 }
+
+console.log(add(5,5))
